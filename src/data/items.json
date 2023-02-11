@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "name": "Gaming Pc",
+    "price": 1000,
+    "imgUrl": "./imgs/pc.jpg"
+  },
+  {
+    "id": 2,
+    "name": "MacBook",
+    "price": 1500,
+    "imgUrl": "./imgs/macbook.jpg"
+  },
+  {
+    "id": 3,
+    "name": "Razer Headset",
+    "price": 600,
+    "imgUrl": "./imgs/razer.jpg"
+  },
+  {
+    "id": 4,
+    "name": "iPad",
+    "price": 800,
+    "imgUrl": "./imgs/ipad.jpg"
+  }
+]
