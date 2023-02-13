@@ -4,10 +4,11 @@ import Navbar from "./components/Navbar";
 import About from "./pages/About";
 import Home from "./pages/Home";
 import Store from "./pages/Store";
+import CartProvider from "./context/CartContext";
 
 function App() {
   return (
-    <div className="">
+    <CartProvider>
       <Navbar />
       <main className="container mx-auto">
         <Routes>
@@ -16,7 +17,7 @@ function App() {
           <Route path="/about" element={<About />} />
         </Routes>
       </main>
-    </div>
+    </CartProvider>
   );
 }
 
